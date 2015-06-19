@@ -29,5 +29,11 @@
 	"psr-4" : {
 		"sfnt\\wechat\\sdk\\" : "src/"
 	}
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dodgepudding/wechat-php-sdk"
+        }
+    ]
 }
