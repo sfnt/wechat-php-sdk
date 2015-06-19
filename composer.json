@@ -1,0 +1,33 @@
+{
+    "name": "sfnt/wechat-php-sdk",
+    "description": "a wechat php api",
+    "type": "library",
+    "version" : "1.1",
+    "require": {
+        "php": ">=5.1.0"
+    },
+    "keywords" : [ "wechat", "weixin" ],
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "dodgepudding",
+            "email": "dodgepudding@gmail.com"
+        }, {
+	    "name" : "binsee",
+	    "email" : "binsee@163.com"
+	}, {
+	    "name" : "sfnt",
+	    "email" : "xiaosfnt@gmail.com"
+	}
+    ],
+    "support" : {
+	"issues" : "https://github.com/sfnt/wechat-php-sdk/issues",
+	"wiki" : "https://github.com/sfnt/wechat-php-sdk/wiki",
+	"source" : "https://github.com/sfnt/wechat-php-sdk"
+    },
+    "autoload" : {
+	"psr-4" : {
+		"sfnt\\wechat\\sdk\\" : "src/"
+	}
+    }
+}
