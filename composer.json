@@ -27,7 +27,8 @@
     },
     "autoload" : {
 	"psr-4" : {
-		"sfnt\\wechat\\sdk\\" : "src/"
+		"sfnt\\wechat\\sdk\\" : "src/",
+		"sfnt\\wechat\\qy\\sdk\\" : "src/qy/"
 	}
     }
 }
